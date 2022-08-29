@@ -1,0 +1,77 @@
+html {
+    background-color: black;
+   }
+   
+   .background {
+       position: fixed;
+       top: 20;
+       right: 0;
+   }
+
+   img {
+    width: 35vw;
+    height: auto;
+    }
+   
+   .topnav {
+       color: rgb(232, 150, 44);
+       letter-spacing: 3px;
+       text-decoration: none;
+       display: flex;
+       flex-direction: row;
+       list-style: none;
+       text-align: right;
+   }
+   
+   li {
+       padding: 2.5vw;
+       margin: 2.5vw;
+       font-size: 2vw;
+   }
+   
+   li:hover {
+       opacity: .5;
+       cursor: pointer;
+       transition: .25s ease-in-out;
+       }
+       
+       a:visited {
+           color: rgb(232, 150, 44);
+       }
+       
+       a:link {
+           color: rgb(232, 150, 44);
+           text-decoration: none;
+       }
+   
+    h1 {
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: rgb(232, 150, 44);
+        padding-left: 60px;
+        padding-bottom: 30px;
+       }
+
+    h2 {
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: rgb(232, 150, 44);
+        padding-left: 60px;
+    }
+
+    h3 {
+    
+       letter-spacing: 3px;
+       text-decoration: none;
+       color: rgb(232, 150, 44);
+       padding-left: 60px;
+    }
+
+    h4 {
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: rgb(232, 150, 44);
+        padding-left: 60px;
+        font-size: 20px;
+        padding-top: 30px;
+    }
